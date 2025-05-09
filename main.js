@@ -17,9 +17,10 @@ tab4ContentEl.style.display = 'none';
 
 
 /*---------------------workin on tab 2 tho hide and show-------------------- */
+
 tab2El.addEventListener('mouseover', () => {
-    tab1ContentEl.style.display = 'none';
-    tab2ContentEl.style.display = 'block';
+        tab1ContentEl.style.display = 'none';
+        tab2ContentEl.style.display = 'block';
 });
 
 tab2El.addEventListener('mouseout', () => {
